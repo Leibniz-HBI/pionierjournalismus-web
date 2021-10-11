@@ -1,0 +1,257 @@
+/*
+ * TAG OVERRIDES
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,700&display=swap');
+
+html {
+  font: 18px/24px 'Barlow', sans-serif;
+  color: #333333;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.body--noscroll {
+  overflow: hidden;
+}
+
+button,
+input {
+  font: 19px/24px 'Barlow', sans-serif;
+  color: #333333;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  max-width: 23rem;
+  line-height: 2rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.h4 {}
+
+.h5 {
+  /*margin-bottom: 0rem;*/
+  margin-top: 1rem;
+}
+
+.sources {
+  font-size: .85rem;
+  margin-top: 0;
+}
+
+.logo {
+  background: url(../img/hbi_logo.svg) center center no-repeat;
+  background-size: contain;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  height: 2.5rem;
+  display: block;
+}
+
+.title {
+  border-bottom: 1px solid #d4d4d4;
+  text-transform: uppercase;
+}
+
+.p {
+  max-width: 20rem;
+  padding: 2rem;
+  display: inline-block;
+}
+
+.links {
+  position: fixed;
+  display: flex;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  align-items: center;
+}
+
+.app {
+  /*max-width: 50rem;*/
+  padding: 2rem;
+  margin: 0px auto;
+  font-size: 16px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.app iframe {
+  width: 100%;
+  border: none;
+  height: 800px;
+}
+
+.button {
+  outline: 0;
+  background-color: #ffed14;
+  border: 0;
+  padding: 6px 20px;
+  font-size: .85rem;
+  border-radius: 26px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.button--github {
+  background: url(../img/github.svg) left no-repeat;
+  background-size: contain;
+  height: 1.5rem;
+}
+
+.button--fullwidth {
+  margin: 7px auto 5px auto !important;
+  background-color: #f3f3f3;
+}
+
+.footer {
+  font-size: .8rem;
+  line-height: 1.2rem;
+  border-top: 1px solid #d4d4d4;
+}
+
+.emoji {
+  width: 3rem;
+}
+
+.flexbox {
+  display: flex;
+  margin: 0px auto;
+  max-width: 45rem;
+}
+
+.detail {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.92);
+  z-index: 6;
+  box-sizing: border-box;
+  display: none;
+  text-align: center;
+  overflow: scroll;
+}
+
+.detail-view {
+  max-width: 30rem;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.detail-data {
+  display: inline-block;
+  text-align: left;
+}
+
+.detail--show {
+  display: inline-block;
+}
+
+.detail-close {
+  width: 1rem;
+  height: 1rem;
+  background-color: #333333;
+  cursor: pointer;
+  float: right;
+}
+
+.detail-close:after {
+  content: "close";
+  margin-left: -4rem;
+  position: relative;
+  font-size: .85rem;
+  top: -0.3rem;
+}
+
+.mod--displayblock {
+  display: block;
+  margin: 0px auto;
+}
+
+@media only screen and (max-width: 680px) {
+  .flexbox {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.p--lessmargin {
+  margin-bottom: -2rem;
+}
+
+/* Overrides */
+.jss2, .MuiTypography-root, .MuiBox-root {
+  background-color: #ffffff !important;
+}
+
+.jss39, .MuiTypography-body1 {
+  background-color: #ffffff !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+}
+
+.MuiTypography-body2 {
+  font-family: 'Barlow', sans-serif !important;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root:first-of-type:hover {
+  background: none;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root:first-of-type:after {
+  content: "filter categories";
+  position: absolute;
+  font-size: .85rem;
+  width: 7rem;
+  right: -6.2rem;
+  top: 13px;
+}
+
+.fullwidth {
+  margin-bottom: 23rem;
+}
+
+.distribution {
+  position: absolute;
+  left: 0;  
+  background: url(../img/distribution.svg) center no-repeat;
+  width: 100vw;
+  height: 20rem;
+  background-size: 100%;
+  position: absolute;
+  left: 0;  
+}
+
+.app svg {
+  overflow: initial;
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+}

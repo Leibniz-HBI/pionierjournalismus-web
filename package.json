@@ -1,0 +1,33 @@
+{
+  "name": "xjwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:development": "webpack-dev-server --config webpack.development.js --port 8081",
+    "deploy": "webpack --config webpack.production.js && . deploy_pages.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "csv-loader": "^3.0.2",
+    "es6-object-assign": "^1.1.0",
+    "es6-promise": "^4.2.8",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "papaparse": "^5.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
