@@ -30,10 +30,11 @@ function App() {
   };
 
   initDatawrapper();
-
-  const [showMapWithName, SetShowMapWithName] = useState('All');
+  
   const [data, SetData] = useState(sampleData);
-
+  const [showMapWithName, SetShowMapWithName] = useState('All');
+  const [isTableCollapsed, SetIsTableCollapsed] = useState(true);
+  
   const handleSelectMap = async event => {
     SetShowMapWithName(event.target.value);
     filterData(event.target.value)
@@ -49,13 +50,56 @@ function App() {
     )
   }
 
-  const MappingTable = () => {
+  const handleToggleCollapse = async event => {
+    SetIsTableCollapsed(!isTableCollapsed);
+  }
+
+  const renderTableRow = ({ row }) => {
+    let renderedRow;
+
+    if (!row) {
+      return '';
+    }
 
     return (
-      <table>
+      <>
+      <td key='1'>
+        <div className={
+          row['Status'] === 'Inaktiv'
+            ? 'status-bubble status-bubble--inactive'
+            : 'status-bubble'
+          }></div>
+      </td>
+      <td key='2'>
+        <a href={row['Webseite']}>{row['Name']}</a>
+      </td>
+      <td key='3'>
+        {row['Ort']}
+      </td>
+      <td key='4'>
+        <a href={`https://twitter.com/${row['Twitterhandle']}`} target='_blank'>{row['Twitterhandle']}</a>
+      </td>
+      <td key='5'>
+        {row['Akteurstyp']}
+      </td>
+      <td key='6'>
+        {row['Experimentierfelder']}
+      </td>
+      </>
+    )
+  }
+
+  const MappingTable = () => {
+    const filteredKeys = Object.keys(data[0])
+      .filter(key => ['Webseite', 'Status'].indexOf(key) === -1)
+
+    return (
+      <>
+      <table name="table" className={(isTableCollapsed && 'table--collapsed ') + 'table'}>
         <thead>
           <tr style={{fontWeight: 600}}>
-            {Object.keys(headerRow).map((key, index) => 
+            <td key='0'></td>
+            {filteredKeys.map((key, index) => 
               <td key={index}>{key}</td>
             )}
           </tr>
@@ -63,13 +107,20 @@ function App() {
         <tbody>
           {Object.keys(data).map((key, index) => 
             <tr>
-              {Object.keys(data[index]).map((k, i) => 
-                <td key={i}>{data[index][k] && data[index][k].substr(0,40)}</td>
-              )}
+              {renderTableRow({
+                row: data[index]
+              })}
             </tr>
           )}
         </tbody>
-      </table>)
+      </table>
+      <div className="table-fade">
+        <div className="button mod--displayblock toggle-collapse" onClick={handleToggleCollapse}>
+          { isTableCollapsed ? 'Ausklappen ↓' : 'Einklappen ↑'}
+        </div>
+      </div>
+      </>
+      )
   }
 
   return (
@@ -78,7 +129,9 @@ function App() {
         <select onChange={handleSelectMap}>
           <option value="All">Alle</option>
           <option value="Startup">Startups</option>
-          <option value="Individual">Individuelle</option>
+          <option value="Project">Projekte</option>
+          <option value="Spinoff">Spinoffs</option>
+          <option value="Innovation Unit">Innovationsabt.</option>
         </select>
       </div>
       <div className={(showMapWithName ==='All' && 'map-visible') + ' map-hidden map'}>
@@ -87,6 +140,16 @@ function App() {
       <div className={(showMapWithName ==='Startup' && 'map-visible') + ' map-hidden map'}>
         <iframe title="Startups" aria-label="Karte" id="datawrapper-chart-Ekvei" src="https://datawrapper.dwcdn.net/J3fnh/1/" scrolling="no" frameBorder="0"></iframe>
       </div>
+      <div className={(showMapWithName ==='Project' && 'map-visible') + ' map-hidden map'}>
+        <iframe title="Projekte" aria-label="Karte" id="datawrapper-chart-Q0urC" src="https://datawrapper.dwcdn.net/Q0urC/1/" scrolling="no" frameBorder="0"></iframe>
+      </div>
+      <div className={(showMapWithName ==='Spinoff' && 'map-visible') + ' map-hidden map'}>
+        <iframe title="Spinoffs" aria-label="Karte" id="datawrapper-chart-VraUz" src="https://datawrapper.dwcdn.net/VraUz/1/" scrolling="no" frameBorder="0"></iframe>
+      </div>
+      <div className={(showMapWithName ==='Innovation Unit' && 'map-visible') + ' map-hidden map'}>
+        <iframe title="Spinoffs" aria-label="Karte" id="datawrapper-chart-hpxyG" src="https://datawrapper.dwcdn.net/hpxyG/1/" scrolling="no" frameBorder="0"></iframe>
+      </div>
+
       <MappingTable/>
     </div>
   );
@@ -139,7 +202,7 @@ function AddEntry() {
         <form className="signup-form mt-8" action="https://mc.us16.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b" method="GET">
           <input required className="" placeholder="Name des Projekts/Startups"></input>
           <input required className="" placeholder="Website"></input>
-          <input defaultValue={emailAddress} required type="email" className="" placeholder="deine@email.com"></input>
+          <input defaultValue={emailAddress} required type="email" className="margin-bottom" placeholder="deine@email.com"></input>
           <button onClick={handleSubmit} name="js-pj-submit" className="button button--black button--fullwidth mod--displayblock" type="submit">
             Abschicken <span className="pj-nudge-elem pr-2">→</span>
           </button>
@@ -152,8 +215,6 @@ function AddEntry() {
           Thanks for reaching out!
         </p>
       }
-      <a href="https://twitter.com/commfigurations" target="_blank"><button class="button button--fullwidth mod--displayblock">@commfigurations on Twitter</button></a>
-      <a href="mailto:submit@xjournalism.org" target="_blank"><button class="button button--fullwidth mod--displayblock">Send us a Mail</button></a>
     </>
   );
 };
