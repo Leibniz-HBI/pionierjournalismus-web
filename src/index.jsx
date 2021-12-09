@@ -68,7 +68,11 @@ function App() {
           row['Status'] === 'Inaktiv'
             ? 'status-bubble status-bubble--inactive'
             : 'status-bubble'
-          }></div>
+          }>
+          <div class="status-bubble-popover">
+            {row['Status']}
+          </div>
+        </div>
       </td>
       <td key='2'>
         <a href={row['Webseite']}>{row['Name']}</a>
@@ -196,7 +200,7 @@ function AddEntry() {
     <>
       <a name="add-entry"></a>
       <img className="emoji" src="https://abs.twimg.com/emoji/v2/svg/1f44b.svg"></img>
-      <p className="p">This is a work-in-progress. We're sure there are many more pioneering actors, startups and projects out there! Let us know about yours.</p>
+      <p className="p">Diese Karte und Tabelle können fortlaufend aktualisiert werden. Bitte benutzen Sie für entsprechende Hinweise das unten stehende Formular.</p>
       { !isValidationDone &&
       <div className="add-form">
         <form className="signup-form mt-8" action="https://mc.us16.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b" method="GET">

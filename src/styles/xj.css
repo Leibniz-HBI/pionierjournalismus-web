@@ -101,11 +101,27 @@ input {
 }
 
 .status-bubble {
-  width: .5rem;
-  height: .5rem;
+  width: 12px;
+  height: 12px;
   display: inline-block;
   border-radius: 100rem;
   background-color: #70bb70;
+  cursor: pointer;
+}
+
+.status-bubble-popover {
+  position: absolute;
+  display: none;
+  font-size: .75rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 0px 11px;
+  margin-top: -30px;
+}
+
+.status-bubble:hover .status-bubble-popover {
+  display: inline;
 }
 
 .status-bubble--inactive {
@@ -188,7 +204,7 @@ a {
 }
 
 .logo {
-  background: url(../img/logos.svg) center center no-repeat;
+  background: url(../img/logos.png) center center no-repeat;
   background-size: contain;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -202,7 +218,7 @@ a {
 }
 
 .p {
-  max-width: 20rem;
+  max-width: 24rem;
   padding: 2rem;
   display: inline-block;
 }
