@@ -294,7 +294,7 @@ a {
 
 .table-fade {
   margin-top: -5rem;
-  background: linear-gradient(0deg, white, transparent);
+  background: linear-gradient(0deg, rgba(255,255,255,1), rgba(255,255,255,0));
   position: relative;
   height: 5rem;
   display: flex;
