@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
+import handleFormSubmit from './components/mailchimp'
 import 'regenerator-runtime/runtime'
 import './styles/xj.css';
 
@@ -34,11 +35,44 @@ function App() {
   const [data, SetData] = useState(sampleData);
   const [showMapWithName, SetShowMapWithName] = useState('All');
   const [isTableCollapsed, SetIsTableCollapsed] = useState(true);
+  const [isValidationDone, setIsValidationDone] = useState(false);
+  const [validationMessage, setValidationMessage] = useState('');
+  const emailAddress = location.state?.emailAddress || null;
   
   const handleSelectMap = async event => {
     SetShowMapWithName(event.target.value);
     filterData(event.target.value)
   }
+
+  const handleSubmit = async e => {
+    const form = document.querySelector('.signup-form');
+
+    if (!form.checkValidity()) {
+      return;
+    }
+
+    e && e.preventDefault();
+
+    document.querySelector('[name=js-pj-submit]').classList.add('inactive');
+
+    const message = await handleFormSubmit(e);
+
+    if (message.result === 'error' && message.msg.indexOf('already subscribed') > -1) {
+      setValidationMessage('Bitte benutzen Sie eine andere Email-Adresse.');
+      return;
+    }
+
+    if (message.result === 'error' && message.msg.indexOf('enter a different ') > -1) {
+      setValidationMessage('Ungültige Email-Adresse.');
+      return;
+    }
+
+    if (message.result === 'success') {
+      setValidationMessage('Danke!');
+    }
+    
+    setIsValidationDone(true);
+  };
 
   const filterData = async category => {
     if (category === 'All') {
@@ -69,13 +103,13 @@ function App() {
             ? 'status-bubble status-bubble--inactive'
             : 'status-bubble'
           }>
-          <div class="status-bubble-popover">
+          <div className="status-bubble-popover">
             {row['Status']}
           </div>
         </div>
       </td>
       <td key='2'>
-        <a href={row['Webseite']}>{row['Name']}</a>
+        <a href={row['Webseite'].startsWith('http') ? row['Webseite'] : 'https://' + row['Webseite']} target='_blank'>{row['Name']}</a>
       </td>
       <td key='3'>
         {row['Ort']}
@@ -101,7 +135,7 @@ function App() {
       <>
       <table name="table" className={(isTableCollapsed && 'table--collapsed ') + 'table'}>
         <thead>
-          <tr style={{fontWeight: 600}}>
+          <tr key="foo" style={{fontWeight: 600}}>
             <td key='0'></td>
             {filteredKeys.map((key, index) => 
               <td key={index}>{key}</td>
@@ -110,7 +144,7 @@ function App() {
         </thead>
         <tbody>
           {Object.keys(data).map((key, index) => 
-            <tr>
+            <tr key={index}>
               {renderTableRow({
                 row: data[index]
               })}
@@ -203,10 +237,10 @@ function AddEntry() {
       <p className="p">Diese Karte und Tabelle können fortlaufend aktualisiert werden. Bitte benutzen Sie für entsprechende Hinweise das unten stehende Formular.</p>
       { !isValidationDone &&
       <div className="add-form">
-        <form className="signup-form mt-8" action="https://mc.us16.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b" method="GET">
-          <input required className="" placeholder="Name des Projekts/Startups"></input>
-          <input required className="" placeholder="Website"></input>
-          <input defaultValue={emailAddress} required type="email" className="margin-bottom" placeholder="deine@email.com"></input>
+        <form className="signup-form mt-8" action="https://leibniz-hbi.us20.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b" method="GET">
+          <input name="form-title" required className="" placeholder="Name des Projekts/Startups"></input>
+          <input name="form-website" required className="" placeholder="Website"></input>
+          <input name="form-email" defaultValue={emailAddress} required type="email" className="margin-bottom" placeholder="deine@email.com"></input>
           <button onClick={handleSubmit} name="js-pj-submit" className="button button--black button--fullwidth mod--displayblock" type="submit">
             Abschicken <span className="pj-nudge-elem pr-2">→</span>
           </button>
@@ -216,7 +250,7 @@ function AddEntry() {
       }
       { isValidationDone &&
         <p className="text-sm max-w-lg mt-8 text-green-900">
-          Thanks for reaching out!
+          Danke für Ihren Beitrag!
         </p>
       }
     </>
