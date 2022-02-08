@@ -1,140 +1,121 @@
 Status,Name,Ort,Webseite,Twitterhandle,Akteurstyp,Experimentierfelder
-Inaktiv,Axel Springer Plug and Play Accelerator,Berlin,http://www.axelspringerplugandplay.com/,@as_pnp,Accelerator,"Technology, Content, Audience Relationship, Funding"
-Aktiv,Media Lab Bayern,München,https://www.media-lab.de/,@medialabbayern,Accelerator,"Business Model, Funding, Organizational Structure"
-Aktiv,Media Lift,Hamburg,https://www.nextmedia-hamburg.de/,@nextmediahh,Accelerator,"Business Model, Funding, Organizational Structure"
-Aktiv,Media Tech Hub,Potsdam,https://www.mth-potsdam.de/en/frontpage/,@mediatech_hub,Accelerator,"Business Model, Funding, Organizational Structure"
-Aktiv,Next Media Accelerator,Hamburg,https://nma.vc,@nma_vc,Accelerator,"Business Model, Funding, Organizational Structure"
-Inaktiv,dpa-newslab,Hamburg,"https://www.dpa.com/de/produkte-services/portale-apps-labs/newslab/,
-https://innovation.dpa.com/","@dpa_newslab
-@gkamp",Innovation Unit,Technology
-Aktiv,DW Innovation,Bonn,http://blogs.dw.com/innovation/,@dw_innovation,Innovation Unit,"Technology, Content"
-Aktiv,Greenhouse Innovation Lab,Hamburg,https://www.greenhouse.media/,@jue,Innovation Unit,"Content, Technology, Business Model"
-Aktiv,HHLab,Hamburg,"https://www.hhlab.de
-https://newsinitiative.withgoogle.com/dnifund/dni-projects/learning-content/, https://www.hhlab.de/learning-content/","@HHLAB_de
-@Dreykluft",Innovation Unit,"Technology, Content"
-Aktiv,InnoLab der HMS,Hamburg,"https://www.hamburgmediaschool.com/forschung-labs/labs/innolab
-https://www.mediummagazin.de/haltung-bitte/","@HHMediaSchool
-@Augstein",Innovation Unit,"Technology, Funding"
-Aktiv,Ippen Digital,München,https://ippen-digital.de,@ID_gmbh,Innovation Unit,Technology
-Aktiv,NDR NextNewsLab,Hamburg,https://www.ndr.de/,"@ndr
-@BjoernSta",Innovation Unit,Technology
-Aktiv,Spiegel Techlab,Hamburg,https://www.spiegel-techlab.de/,,Innovation Unit,Technology
-Aktiv,Tagesspiegel Innovation Lab,Berlin,https://www.tagesspiegel.de/themen/presseportal/personalie-tagesspiegel-startet-innovation-lab/23905018.html,"@plateauton
-@rka",Innovation Unit,"Technology, Content"
-Inaktiv,EventSpace,München,https://eventspace.es,@seadow,Project,"Technology, Audience Relationship"
-Aktiv,Business News Platform,Düsseldorf,https://newsinitiative.withgoogle.com/dnifund/dni-projects/business-news-platform/,@handelsblatt,Project,Technology
-Aktiv,C-POP,Berlin,"https://innovation.dpa.com/2019/03/21/story-driven-reader-c-pop-newsflow-agencies-publishers/, https://innovation.dpa.com/2019/03/21/agenturen-verlage-c-pop-kooperation/, https://dpa.com",@dpa,Project,Technology
-Aktiv,Campfire Festival,Düsseldorf,https://campfirefestival.org/,@campfire_fest,Project,Audience Relationship
-Aktiv,Conversational News,Halle,"https://newsinitiative.withgoogle.com/dnifund/dni-projects/conversational-news/, https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/",@matthias_hagen,Project,Technology
-Inaktiv,Data Corrupter,Düsseldorf,"https://thedatacorrupter.org
-https://www.grey.com
-https://orange.handelsblatt.com",,Project,Technology
-Aktiv,Dekoder,Hamburg,https://dekoder.org,@dekoder_org,Project,Content
-Aktiv,Digger - Deepfake Detection,Bonn,https://digger-project.com/,@DeepfakeDigger,Project,Technology
-Aktiv,docupy,Köln,www1.wdr.de/fernsehen/docupy,@docupy,Project,Content
-Aktiv,Editorial Insights Engine,Hamburg,"https://newsinitiative.withgoogle.com/dnifund/dni-projects/editorial-insights-engine/, bauerxcel.com, bauermedia.com","@bauermediagroup
-@bauerxcel (gelöscht)",Project,Technology
-Aktiv,F.A.Z. Personalisation: Content layers for a regional focus,Frankfurt,https://newsinitiative.withgoogle.com/dnifund/dni-projects/FAZ-personalisation/,@faznet,Project,Technology
-Aktiv,Follow the Grant,Berlin,https://www.followthegrant.org/,@hristio,Project,"Content, Technology"
-Aktiv,Social Score,Berlin,https://socialscore.eu/,@studio_sansho,Project,"Technology, Content, Audience Relationship"
-Aktiv,Identifying & Monetising Evergreen Content,Münster,"https://newsinitiative.withgoogle.com/dnifund/dni-projects/identifying-monetising-evergreen-content-round-5/
- aschendorff.de/",,Project,"Technology, Content"
-Inaktiv,Jornu,München,https://jornu.com/,@jornuDE,Project,"Audience Relationship, Technology"
-Aktiv,LIMES,Hamburg,"https://blogs.dw.com/innovation/project-limes-the-future-of-augmented-interactive-live-streaming/
-https://contentflow.net/",,Project,Technology
-Aktiv,Linius,Berlin,http://linius-storytelling.de/,,Project,"Technology, Content"
-Aktiv,MIT KIDZ,Bochum,https://mit-kidz.de,"@mit_kidz
-@tapulator",Project,Content
-Aktiv,My Country Talks,Hamburg,https://www.mycountrytalks.org,,Project,"Content, Audience Relationship, Organizational Structure"
-Inaktiv,News-Stream,Sankt Augustin,"newsstreamproject.org, https://www.iais.fraunhofer.de/de/geschaeftsfelder/content-technologies-and-services/referenzprojekte/news-stream.html",@wearenewsstream,Project,"Technology, Organizational Structure"
-Aktiv,Radmesser,Berlin,interaktiv.tagesspiegel.de/radmesser/,"@plateauton
-@Michael_Gegg",Project,"Technology, Content"
-Aktiv,ReadersClub,Hamburg,"https://newsinitiative.withgoogle.com/dnifund/dni-projects/readers-club/, dumontnext.de",,Project,"Technology, Audience Relationship"
-Aktiv,Reporterfabrik,Essen,https://www.reporterfabrik.org,@reporterfabrik,Project,Business Model
-Aktiv,RiffReporter,Bremen,riffreporter.de,@riffreporter,Project,Content
-Aktiv,Salonkolumnisten,Bremen,https://www.salonkolumnisten.com/,@Salonkolumnist,Project,"Content, Audience Relationship"
-Aktiv,Storypepper,Hamburg,https://storypepper.com/,@cutnut_official,Project,Technology
-Aktiv,Straßengezwitscher,Dresden,https://strassengezwitscher.de,@streetcoverage,Project,Content
-Aktiv,Tagesspiegel Background,Berlin,https://background.tagesspiegel.de/,@tagesspiegel,Project,"Content, Business Model"
-Aktiv,Tagesspiegel Leute,Berlin,https://newsinitiative.withgoogle.com/dnifund/report/telling-local-stories/tagesspiegel-leute-making-local-news-work/,@TspLeute,Project,"Content, Business Model"
-Aktiv,The Master Graph,München,"https://newsinitiative.withgoogle.com/dnifund/dni-projects/master-graph/, http://www.mediennetzwerk-bayern.de/16605/wissensgraph-die-quelle-der-wahrheit/, ippen-digital.de",@ID_gmbh,Project,Technology
-Aktiv,Trend Recognition Module for the Listening Center,Düsseldorf,https://newsinitiative.withgoogle.com/dnifund/dni-projects/trend-recognition-module-listening-center/,@rpo_digitale,Project,Technology
-Aktiv,Truly Media,Bonn,https://truly.media,@trulymedia,Project,"Technology, Audience Relationship"
-Aktiv,Videovalis,Köln,https://www.videovalis.de/,@ReisenTV_VV,Project,"Technology, Business Model"
-Inaktiv,Vivoico,München,http://www.vivoico.de/,"@vivoico
-@Manu_Geitner",Project,"Content, Business Model"
-Aktiv,Vocer,Hamburg,https://www.vocer.org,@voiceofvocer,Project,Funding
-Inaktiv,What's hot,Düsseldorf,"https://videoguide-duesseldorf.de, 
-https://www.journalismuslab.de/2018/07/19/hackathon-2018-team-whats-hot-im-interview/","@LauraRohrbeck
-@Kleebart",Project,Technology
-Aktiv,Y-Kollektiv,Bremen,"http://sendefaehig.com/
-https://www.youtube.com/channel/UCLoWcRy-ZjA-Erh0p_VDLjQ",@Y_Kollektiv,Project,"Content, Organizational Structure"
-Aktiv,Ada,Düsseldorf,https://join-ada.com/,@join_ada,Spinoff,Content
-Inaktiv,Bento,Hamburg,https://bento.de,@bento_de,Spinoff,Content
-Aktiv,Business Insider Deutschland,Karlsruhe,www.businessinsider.de, @BIDeutschland ,Spinoff,Content
-Aktiv,Business Punk,Hamburg,https://www.business-punk.com,@BusinessPunkMag,Spinoff,Content
-Inaktiv,Byou,Berlin,https://byou.bild.de,@byou,Spinoff,"Content, Audience Relationship"
-Aktiv,funk,Stuttgart,https://www.funk.net/,"Nur in z.B.:
-@Y_Kollektiv 
-@jaegersammler 
-@gutearbeit",Spinoff,"Organizational Structure, Content"
-Aktiv,Jetzt,München,http://jetzt.de,@jetzt,Spinoff,Content
-Inaktiv,Noizz,Berlin,https://noizz.de,@noizzrs,Spinoff,"Content, Audience Relationship"
-Aktiv,SMARTPAPER ONE,Essen,https://zeitungsdruck-online.de/smartpaper-one,,Spinoff,"Business Model, Technology"
-Aktiv,Stern Crime,Hamburg,https://stern-crime.de,@DiGrazia_,Spinoff,Content
-Aktiv,Upday,Berlin,https://upday.com,@updayDE,Spinoff,Technology
-Aktiv,Ze.tt,Hamburg,https://ze.tt/,@zett,Spinoff,Content
 Aktiv,1plusX,Hamburg,https://www.1plusx.com/,@1plusX,Startup,Technology
+Aktiv,Ada,Düsseldorf,https://join-ada.com/,@join_ada,Spinoff,Content
 Inaktiv,Adloop,Köln,http://adloop.eu/,@ad_loop,Startup,Technology
 Inaktiv,AdSeen,Paderborn,http://www.adseen.de/,@adseen_de,Startup,Technology
-Aktiv,AKINGO,Düsseldorf,"https://akingo.com, https://ianfs.com, 
-https://newsinitiative.withgoogle.com/dnifund/dni-projects/akingo/",@ianflorian,Startup,Technology
+Aktiv,AKINGO,Düsseldorf,https://akingo.com,@ianflorian,Startup,Technology
+Aktiv,Audyem,Hamburg,https://audyem.com,@paulsolbach,Startup,Technology
 Aktiv,AX Semantics,Stuttgart,https://www.ax-semantics.com,@axsemantics,Startup,Technology
+Inaktiv,Axel Springer Plug and Play Accelerator,Berlin,http://www.axelspringerplugandplay.com/,@as_pnp,Accelerator,"Technology, Content, Audience Relationship, Funding"
+Inaktiv,Bento,Hamburg,https://bento.de,@bento_de,Spinoff,Content
 Aktiv,Bohème,München,http://boheme.io/,,Startup,"Technology, Business Model"
+Aktiv,BR AI   Automation Lab,,https://www.br.de/extra/ai-automation-lab/index.html,@br_ailab,Innovation Unit,Technology
+Aktiv,Business Insider Deutschland,Karlsruhe,www.businessinsider.de, @BIDeutschland ,Spinoff,Content
+Aktiv,Business News Platform,Düsseldorf,https://newsinitiative.withgoogle.com/dnifund/dni-projects/business-news-platform/,@handelsblatt,Project,Technology
+Aktiv,Business Punk,Hamburg,https://www.business-punk.com,@BusinessPunkMag,Spinoff,Content
 Aktiv,BuzzFeed Deutschland,Berlin,https://www.buzzfeed.com/de/,"@BuzzFeedGermany
 @BuzzFeedNewsDE",Startup,"Content, Audience Relationship"
+Inaktiv,Byou,Berlin,https://byou.bild.de,@byou,Spinoff,"Content, Audience Relationship"
+Aktiv,C-POP,Berlin,https://innovation.dpa.com/2019/03/21/story-driven-reader-c-pop-newsflow-agencies-publishers/,@dpa,Project,Technology
 Aktiv,Camperstyle,Donauwörth,https://de.camperstyle.net/,@CamperStyleDE,Startup,"Content, Audience Relationship"
+Aktiv,Campfire Festival,Düsseldorf,https://campfirefestival.org/,@campfire_fest,Project,Audience Relationship
+Aktiv,CCI - Content Creation Intelligence,,http://www.konsole.org,@MarcelTuljus,Project,Technology
 Aktiv,CeleraOne,Berlin,http://www.celeraone.com/,@celeraone,Startup,Technology
 Aktiv,Civey,Berlin,https://civey.com/,@civey_de,Startup,"Technology, Content"
 Aktiv,Cleverpush,Hamburg,https://cleverpush.com/de/,@cleverpush_com,Startup,Technology
 Aktiv,CommunicationAds,Nürnberg,https://www.communicationads.net/,,Startup,Technology
 Aktiv,Contentflow,Berlin,https://contentflow.net,@contentflowlive,Startup,Technology
+Aktiv,Conversational News,Halle,https://newsinitiative.withgoogle.com/dnifund/dni-projects/conversational-news/,@matthias_hagen,Project,Technology
 Aktiv,CORRECTIV,Essen,https://correctiv.org,@correctiv_org,Startup,"Audience Relationship, Content, Funding"
+Inaktiv,Data Corrupter,Düsseldorf,"https://thedatacorrupter.org
+https://www.grey.com
+https://orange.handelsblatt.com",,Project,Technology
 Aktiv,Datawrapper,Bad Honnef,https://www.datawrapper.de/,@datawrapper,Startup,"Technology, Content"
 Aktiv,Datenfreunde,Hamburg,https://datenfreunde.com,@datenfreunde,Startup,"Technology, Content"
 Aktiv,Deine Korrespondentin,Berlin,https://www.deine-korrespondentin.de,@deine_korri,Startup,"Content, Audience Relationship"
+Aktiv,Dekoder,Hamburg,https://dekoder.org,@dekoder_org,Project,Content
+Aktiv,Der Bus,,http://Bus.news,,Startup,
 Aktiv,Der Kontext,München,https://www.derkontext.com/,@DerKontext,Startup,Content
+Aktiv,Digger - Deepfake Detection,Bonn,https://digger-project.com/,@DeepfakeDigger,Project,Technology
 Aktiv,Digidip,Berlin,https://www.digidip.net,@digidip_net,Startup,Technology
+Aktiv,docupy,Köln,www1.wdr.de/fernsehen/docupy,@docupy,Project,Content
+Inaktiv,dpa-newslab,Hamburg,https://innovation.dpa.com/,@dpa_newslab,Innovation Unit,Technology
+Aktiv,DW Innovation,Bonn,http://blogs.dw.com/innovation/,@dw_innovation,Innovation Unit,"Technology, Content"
 Aktiv,Edition F,Berlin,https://editionf.com,@editionf_com,Startup,"Content, Audience Relationship"
+Aktiv,Editorial Insights Engine,Hamburg,https://newsinitiative.withgoogle.com/dnifund/dni-projects/editorial-insights-engine/,"@bauermediagroup
+@bauerxcel (gelöscht)",Project,Technology
 Aktiv,Electric Elephant Publishing,Hamburg,https://www.electricelephantpublishing.de/,@JorisZierold,Startup,Content
+Inaktiv,EventSpace,München,https://eventspace.es,@seadow,Project,"Technology, Audience Relationship"
+Aktiv,F.A.Z. Personalisation: Content layers for a regional focus,Frankfurt,https://newsinitiative.withgoogle.com/dnifund/dni-projects/FAZ-personalisation/,@faznet,Project,Technology
 Aktiv,FactFox,München,https://www.factfox.io/,@factfoxDE,Startup,Technology
-Aktiv,Audyem,Hamburg,https://audyem.com,@paulsolbach,Startup,Technology
+Aktiv,Flip,,http://www.letsflip.de,@letsflip_de,Startup,"Content, Technology"
+Aktiv,Follow the Grant,Berlin,https://www.followthegrant.org/,@hristio,Project,"Content, Technology"
+Aktiv,funk,Stuttgart,https://www.funk.net/,"Nur in z.B.:
+@Y_Kollektiv 
+@jaegersammler 
+@gutearbeit",Spinoff,"Organizational Structure, Content"
+Aktiv,Good News Magazin,Berlin,https://goodnews-magazin.de/,@goodnews_mag,Startup,Content
+Aktiv,Greenhouse Innovation Lab,Hamburg,https://www.greenhouse.media/,@jue,Innovation Unit,"Content, Technology, Business Model"
 Aktiv,Helloguide,Hamburg,https://helloguide.ai,@helloguide_ai,Startup,"Technology, Content"
+Aktiv,HHLab,Hamburg,https://www.hhlab.de ,"@HHLAB_de
+@Dreykluft",Innovation Unit,"Technology, Content"
 Aktiv,Hostwriter,Berlin,hostwriter.org,@Hostwriter,Startup,"Technology, Audience Relationship"
-Inaktiv,Huffpost Deutschland,München,https://www.huffingtonpost.de/,@HuffPostDE,Startup,
+Inaktiv,Huffpost Deutschland,München,https://www.huffingtonpost.de/,@HuffPostDE,Startup,Content
 Aktiv,hyScore,,https://www.hyscore.io,@hyscoreio,Startup,Technology
+Inaktiv,Identifying & Monetising Evergreen Content,Münster,"https://newsinitiative.withgoogle.com/dnifund/dni-projects/identifying-monetising-evergreen-content-round-5/
+ aschendorff.de/",,Project,"Technology, Content"
+Aktiv,InnoLab der HMS,Hamburg,https://www.hamburgmediaschool.com/forschung-labs/labs/innolab,"@HHMediaSchool
+@Augstein",Innovation Unit,"Technology, Funding"
+Aktiv,Institut für Digitale Resilienz,Hamburg,http://www.digitale-resilienz.org,,Spinoff,
+Aktiv,Ippen Digital,München,https://ippen-digital.de,@ID_gmbh,Innovation Unit,Technology
+Aktiv,Jetzt,München,http://jetzt.de,@jetzt,Spinoff,Content
+Inaktiv,Jornu,München,https://jornu.com/,@jornuDE,Project,"Audience Relationship, Technology"
+Aktiv,Journalism of Things Conference,Stuttgart,https://jotcon.de/,@jotcon19,Startup,Audience Relationship
+Aktiv,KARAKAYA TALKS,Berlin,https://www.instagram.com/karakayatalks/,,Startup,"Content, Audience Relationship"
 Aktiv,Kerngedanke,München,https://kerngedanke.com/,@krngdnk,Startup,Technology
+Aktiv,Kompreno,Frankfurt am Main,https://kompreno.eu,@KomprenoEu,Startup,Content
 Aktiv,Kr3m,Karlsruhe,https://kr3m.com,@kr3mmedia,Startup,Technology
 Aktiv,Krautreporter,Berlin,https://krautreporter.de,@krautreporter,Startup,"Content, Funding, Business Model, Audience Relationship"
 Aktiv,Labiotech.eu,Berlin,https://labiotech.eu,@Labiotech_eu,Startup,"Content, Business Model"
 Aktiv,LaterPay,München,https://www.laterpay.net/,@laterpay,Startup,"Technology, Business Model"
+Aktiv,LIMES,Hamburg,"https://blogs.dw.com/innovation/project-limes-the-future-of-augmented-interactive-live-streaming/
+https://contentflow.net/",,Project,Technology
+Aktiv,Linius,Berlin,http://linius-storytelling.de/,,Project,"Technology, Content"
 Aktiv,LinkLift,Berlin,http://www.linklift.de/,@Linklift_DE,Startup,Technology
 Aktiv,Lokalpioniere,Bielefeld,https://www.lokalpioniere.de/,,Startup,"Audience Relationship, Business Model, Technology"
 Aktiv,Lokalportal,Hamburg,https://lokalportal.de/,@Lokalportal_DE,Startup,"Business Model, Audience Relationship"
 Aktiv,Luminovo,München,https://luminovo.ai/,@luminovo,Startup,Technology
 Inaktiv,Mashtag,Saarbrücken,https://mashtag.com/,,Startup,Technology
+Aktiv,MDR next,,http://mdr.de/next,@mdrdr,Innovation Unit,"Content, Technology"
+Aktiv,Media Lab Bayern,München,https://www.media-lab.de/,@medialabbayern,Accelerator,"Business Model, Funding, Organizational Structure"
+Aktiv,Media Lift,Hamburg,https://www.nextmedia-hamburg.de/,@nextmediahh,Accelerator,"Business Model, Funding, Organizational Structure"
+Aktiv,Media Tech Hub,Potsdam,https://www.mth-potsdam.de/en/frontpage/,@mediatech_hub,Accelerator,"Business Model, Funding, Organizational Structure"
+Aktiv,MediaLab.NRW,Bochum,http://MediaLab.NRW,@MediaLabNRW,Accelerator,"Content, Technology"
 Aktiv,MedWatch,Hamburg,https://medwatch.de,@medwatch_de,Startup,Content
 Aktiv,Merkurist,Mainz,https://merkurist.de,"@Merkurist_biz, @Merkurist_Mainz",Startup,"Content, Audience Relationship"
 Aktiv,MessengerPeople,München,https://messengerpeople.com,@MessengerPeople,Startup,"Technology, Audience Relationship"
+Aktiv,MIT KIDZ,Bochum,https://mit-kidz.de,"@mit_kidz
+@tapulator",Project,Content
 Aktiv,Moviepilot,Berlin,https://www.moviepilot.de/,@moviepilot,Startup,Content
+Aktiv,MUCBOOK,,http://www.mucbook.de,@mucbook,Startup,"Content, Audience Relationship"
 Inaktiv,Multicast Media,Potsdam,https://www.multicast-media.com/,@multicast_media,Startup,Content
+Aktiv,My Country Talks,Hamburg,https://www.mycountrytalks.org,,Project,"Content, Audience Relationship, Organizational Structure"
 Aktiv,Narando,Löhne,https://www.narando.com/,@narandoapp,Startup,Technology
+Aktiv,NDR NextNewsLab,Hamburg,https://www.ndr.de/,"@ndr
+@BjoernSta",Innovation Unit,Technology
 Aktiv,Nebenan.de,Berlin,https://nebenan.de,@nebenan_DE,Startup,"Business Model, Funding, Audience Relationship"
 Aktiv,Neeeu,Berlin,https://neeeu.io/,@neeeu_io,Startup,Content
+Aktiv,netzpolitik.org,Berlin,https://www.netzpolitik.org,@netzpolitik,Startup,"Content, Business Model"
+Aktiv,Netzwerk Medien-Trainer,Nüringen,https://www.nmt.digital/,@nmtdigital,Project,Organizational Structure
 Aktiv,Neue Narrative,Berlin,https://neuenarrative.de/,@neuenarrative,Startup,Content
+Inaktiv,News-Stream,Sankt Augustin,newsstreamproject.org,@wearenewsstream,Project,"Technology, Organizational Structure"
 Aktiv,Newscase,Berlin,https://newscase.com,,Startup,Technology
+Aktiv,Next Media Accelerator,Hamburg,https://nma.vc,@nma_vc,Accelerator,"Business Model, Funding, Organizational Structure"
+Inaktiv,Noizz,Berlin,https://noizz.de,@noizzrs,Spinoff,"Content, Audience Relationship"
+Aktiv,Nord West Reportagen,Bremen,http://www.nordwest-reportagen.de,,Project,"Content, Business Model"
 Aktiv,Nuzzera,Berlin,https://nuzzera.de/,@nuzzera,Startup,"Business Model, Audience Relationship"
 Aktiv,Opinary,Berlin,https://opinary.com/,@opinary,Startup,"Technology, Business Model"
+Aktiv,Pageflow,Köln,https://pageflow.io,@pageflow_io,"Startup, Project","Technology, Content"
 Aktiv,Pay with a Tweet,"Hamburg, Berlin",https://www.paywithatweet.com,@paywithatweet,Startup,"Technology, Business Model"
 Inaktiv,Personiq,München,personiq.de,@_personiq_,Startup,Technology
 Aktiv,Perspective Daily,Münster,https://perspective-daily.de/,@PDmedien,Startup,Content
@@ -146,38 +127,67 @@ Aktiv,Plista,Berlin,https://www.plista.com/de/,@plista,Startup,Technology
 Aktiv,Policylead,Berlin,www.policylead.eu,@policylead,Startup,"Content, Technology"
 Aktiv,Prenzlauer Berg Nachrichten,Berlin,prenzlauerberg-nachrichten.de,@prenzlette,Startup,Content
 Aktiv,PressMatrix,Berlin,https://pressmatrix.de,@pressmatrix,Startup,"Content, Technology"
+Aktiv,Radmesser,Berlin,interaktiv.tagesspiegel.de/radmesser/,"@plateauton
+@Michael_Gegg",Project,"Technology, Content"
+Aktiv,ReadersClub,Hamburg,https://newsinitiative.withgoogle.com/dnifund/dni-projects/readers-club,,Project,"Technology, Audience Relationship"
+Aktiv,Relevanzreporter,Nürnberg,http://www.relevanzreporter.de,@alehaderlein,Content,"Audience Relationship, Organizational Structure"
+Aktiv,Reporterfabrik,Essen,https://www.reporterfabrik.org,@reporterfabrik,Project,Business Model
 Aktiv,Retresco,Berlin,https://www.retresco.de,@retresco,Startup,Technology
+Aktiv,RiffReporter,Bremen,riffreporter.de,@riffreporter,Project,Content
+Aktiv,RUMS - Neuer Journalismus für Münster,Münster,http://www.rums.ms,@rums_muenster,Startup,"Audience Relationship, Business Model"
+Aktiv,Salonkolumnisten,Bremen,https://www.salonkolumnisten.com/,@Salonkolumnist,Project,"Content, Audience Relationship"
 Aktiv,ShareMagazines,Hamburg,https://sharemagazines.de/,@sharemagazines,Startup,"Business Model, Technology"
 Aktiv,Shelfd,Berlin,https://shelfd.com,"@Shelfd
 @DaviidStreit",Startup,Business Model
 Aktiv,ShowHeroes,Hamburg,https://showheroes.com/,"@Ilhan_Zengin
 @kcon",Startup,Technology
+Aktiv,SMARTPAPER ONE,Essen,https://zeitungsdruck-online.de/smartpaper-one,,Spinoff,"Business Model, Technology"
+Aktiv,Social Score,Berlin,https://socialscore.eu/,@studio_sansho,Project,"Technology, Content, Audience Relationship"
 Inaktiv,SoundTicker,München,https://soundticker.com/,SoundtickerDE,Startup,"Technology, Business Model"
 Aktiv,SourceFabric,Berlin,https://www.sourcefabric.org/,@sourcefabric,Startup,"Technology, Funding"
 Aktiv,Spaactor,Bremen,https://www.spaactor.com,@spaactor,Startup,Technology
 Aktiv,Spectrm,Berlin,https://spectrm.io,@Spectrm_,Startup,"Technology, Audience Relationship"
+Aktiv,Spiegel Techlab,Hamburg,https://www.spiegel-techlab.de/,,Innovation Unit,Technology
 Aktiv,Spree,Nürnberg,https://jointhespree.com/,@HolodeckVR,Startup,"Technology, Audience Relationship"
 Aktiv,Steady,Berlin,https://steadyhq.com,@joinsteady,Startup,"Technology, Busines Model"
+Aktiv,Stern Crime,Hamburg,https://stern-crime.de,@DiGrazia_,Spinoff,Content
 Aktiv,Storymachine,Berlin,https://www.storymachine.de/,@jessenphil,Startup,Business Model
+Aktiv,Storypepper,Hamburg,https://storypepper.com/,@cutnut_official,Project,Technology
 Aktiv,Straight,Berlin,https://www.straight-universe.com,@straight,Startup,Content
+Aktiv,Straßengezwitscher,Dresden,https://strassengezwitscher.de,@streetcoverage,Project,Content
+Aktiv,SWR X Lab,Stuttgart,http://www.swr.de/xlab,,Innovation Unit,Technology
+Aktiv,Table Media,Berlin,https://table.media,@table_media_,Startup,"Content, Business Model"
 Aktiv,tactile.news,Lüneburg,https://tactile.news,@FrauCsu,Startup,"Technology, Content"
+Aktiv,Tagesspiegel Background,Berlin,https://background.tagesspiegel.de/,@tagesspiegel,Project,"Content, Business Model"
+Aktiv,Tagesspiegel Innovation Lab,Berlin,https://www.tagesspiegel.de/themen/presseportal/personalie-tagesspiegel-startet-innovation-lab/23905018.html,"@plateauton
+@rka",Innovation Unit,"Technology, Content"
+Aktiv,Tagesspiegel Leute,Berlin,https://newsinitiative.withgoogle.com/dnifund/report/telling-local-stories/tagesspiegel-leute-making-local-news-work/,@TspLeute,Project,"Content, Business Model"
 Inaktiv,Tame,Berlin,tame.it,@FrederikFischer,Startup,Technology
 Aktiv,Textunes,Berlin,http://textunes.de,@textunesberlin,Startup,"Technology, Business Model"
 Aktiv,The Buzzard,Berlin,https://thebuzzard.org,"@TheBuzzardOrg
 @felixfrie
 @Dario_Nassal",Startup,"Content, Business Model"
+Aktiv,The Master Graph,München,https://newsinitiative.withgoogle.com/dnifund/dni-projects/master-graph/,@ID_gmbh,Project,Technology
 Inaktiv,The Shotcaller,Berlin,https://theshotcaller.net,@TheShotcallerGG,Startup,Content
 Aktiv,Tincon,Berlin,https://tincon.org/,@tincon,Startup,Content
 Aktiv,Traffective,München,https://traffective.com,@traffective,Startup,Technology
+Aktiv,Trend Recognition Module for the Listening Center,Düsseldorf,https://newsinitiative.withgoogle.com/dnifund/dni-projects/trend-recognition-module-listening-center/,@rpo_digitale,Project,Technology
+Aktiv,Truly Media,Bonn,https://truly.media,@trulymedia,Project,"Technology, Audience Relationship"
 Aktiv,Übermedien,Berlin,https://uebermedien.de,"@uebermedien
 @topfvollgold",Startup,"Content, Funding"
 Aktiv,Ubermetrics,Berlin,https://www.ubermetrics-technologies.com/,@ubermetrics,Startup,Technology
 Inaktiv,Umatter.news,Hamburg,https://umatter.news,"@umatternews
 @stein_cedric",Startup,"Content, Audience Relationship"
-Aktiv,Upspeak,Landau a.d.Isar,https://www.upspeak.de/de,@Upspeakapp,Startup,"Technology, Business Model"
+Aktiv,Upday,Berlin,https://upday.com,@updayDE,Spinoff,Technology
+Aktiv,Upspeak,Landau a.d. Isar,https://www.upspeak.de/de,@Upspeakapp,Startup,"Technology, Business Model"
+Aktiv,Upstream,Halle a.d. Saale,https://upstream-newsletter.de/,,Startup,"Content, Audience Relationship"
 Aktiv,Varia,München,https://www.varia.media/,@variamediagroup,Startup,Technology
 Aktiv,Versicherungsmonitor,Köln,https://versicherungsmonitor.de/,@VMonitor,Startup,"Content, Funding, Business Model"
 Aktiv,VICE Deutschland,Berlin,https://www.vice.com/de,@Vice_Germany,Startup,Content
+Aktiv,Videovalis,Köln,https://www.videovalis.de/,@ReisenTV_VV,Project,"Technology, Business Model"
+Inaktiv,Vivoico,München,http://www.vivoico.de/,"@vivoico
+@Manu_Geitner",Project,"Content, Business Model"
+Aktiv,Vocer,Hamburg,https://www.vocer.org,@voiceofvocer,Project,Funding
 Aktiv,Vragments,Berlin,https://vragments.com,"@vragments
 @Lynda420
 @HelrenPDM",Startup,"Content, Technology"
@@ -185,11 +195,13 @@ Aktiv,Wafana,München,https://wafana.de/,"@wafana_de
 @Johanna_Wild",Startup,Business Model
 Aktiv,Webmag,München,https://webmag.io/,@webmag_io,Startup,Technology
 Aktiv,Webtrekk,Berlin,https://www.webtrekk.com/,@webtrekk,Startup,Technology
+Inaktiv,What's hot,Düsseldorf,https://videoguide-duesseldorf.de,"@LauraRohrbeck
+@Kleebart",Project,Technology
+Aktiv,Wokreisel,Groß Köris,http://www.wokreisel.de,@wokreisel,,Audience Relationship
+Aktiv,Y-Kollektiv,Bremen,http://sendefaehig.com,@Y_Kollektiv,Project,"Content, Organizational Structure"
 Inaktiv,Yeebase,Hannover,https://yeebase.com,"@yeebase
 @t3n",Startup,Content
 Aktiv,Zaubar,Berlin,https://zaubar.com,"@zaubarApp
 @AnneSophiePunkt
 @StefanMarx",Startup,"Technology, Content"
-Aktiv,Pageflow,Köln,https://pageflow.io,@pageflow_io,"Startup, Project","Technology, Content"
-Aktiv,Schwingenstein Stiftung,München,http://schwingenstein-stiftung.de/,,Trust,"Technology, Business Model"
-Aktiv,Netzwerk Medien-Trainer,Nüringen,https://www.nmt.digital/,,,
+Aktiv,Ze.tt,Hamburg,https://ze.tt/,@zett,Spinoff,Content
