@@ -1,4 +1,4 @@
-## Pionierjournalism Website
+# Pioneer Journalism Website
 This repository contains all the code needed to build and update the webapp running at pioneerjournalism.org via Github Pages.  
 
 ### Prerequisites
