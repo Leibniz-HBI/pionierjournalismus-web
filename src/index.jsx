@@ -230,6 +230,8 @@ function AddEntry() {
     setIsValidationDone(true);
   };
 
+  // https://leibniz-hbi.us20.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b
+
   return (
     <>
       <a name="add-entry"></a>
@@ -237,7 +239,7 @@ function AddEntry() {
       <p className="p">Diese Karte und Tabelle können fortlaufend aktualisiert werden. Bitte benutzen Sie für entsprechende Hinweise das unten stehende Formular.</p>
       { !isValidationDone &&
       <div className="add-form">
-        <form className="signup-form mt-8" action="https://leibniz-hbi.us20.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b" method="GET">
+        <form className="signup-form mt-8" action="https://uni-bremen.us14.list-manage.com/subscribe/post-json?u=bb670b06b715c6cee97b3b277&id=939817656f" method="GET">
           <input name="form-title" required className="" placeholder="Name des Projekts/Startups"></input>
           <input name="form-website" required className="" placeholder="Website"></input>
           <input name="form-email" defaultValue={emailAddress} required type="email" className="margin-bottom" placeholder="deine@email.com"></input>
