@@ -230,8 +230,6 @@ function AddEntry() {
     setIsValidationDone(true);
   };
 
-  // https://leibniz-hbi.us20.list-manage.com/subscribe/post-json?u=e7f679ff891132aed61f9e1db&id=cc6290134b
-
   return (
     <>
       <a name="add-entry"></a>
